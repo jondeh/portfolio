@@ -1,0 +1,154 @@
+.body-container {
+    /* height: 200vh; */
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    background: black;
+}
+
+.vindermere-container {
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.vin-pic {
+    border: 1px solid black;
+    height: 100%;
+    width: 47%;
+    background: url('./vindermere-screenshot.png');
+    background-size: 250%;
+    background-position: center;
+}
+
+.vin-info-container {
+    width: 47%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.vin-title {
+    border: 1px solid black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.vin-info-body {
+    display: flex;
+    padding: 5px;
+    /* border: 1px solid purple; */
+    height: 40%;
+}
+
+.vin-built-with {
+    margin-right: 10px;
+    /* border: 1px solid green; */
+}
+
+.vin-summary {
+    /* border: 1px solid green; */
+}
+
+.game-ryan-container {
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.game-ryan-pic {
+    border: 1px solid black;
+    height: 100%;
+    width: 47%;
+    background: url('./gameryan-screenshot.png');
+    background-size: 145%;
+    background-position: center;
+}
+
+.game-ryan-info-container {
+    width: 47%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.game-ryan-title {
+    border: 1px solid black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: end;
+}
+
+.game-ryan-info-body {
+    display: flex;
+    padding: 5px;
+    /* border: 1px solid purple; */
+    height: 40%;
+}
+
+.game-ryan-built-with {
+    margin-right: 10px;
+    /* border: 1px solid green; */
+}
+
+.game-ryan-summary {
+    /* border: 1px solid green; */
+}
+
+.chord-finder-container {
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.chord-finder-pic {
+    border: 1px solid black;
+    height: 100%;
+    width: 47%;
+    background: url('./2020-05-19\ \(5\).png');
+    background-size: 145%;
+    background-position-x: start;
+}
+
+.chord-finder-info-container {
+    width: 47%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.chord-finder-title {
+    border: 1px solid black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.chord-finder-info-body {
+    display: flex;
+    padding: 5px;
+    /* border: 1px solid purple; */
+    height: 40%;
+}
+
+.chord-finder-built-with {
+    margin-right: 10px;
+    /* border: 1px solid green; */
+}
+
+.chord-finder-summary {
+    /* border: 1px solid green; */
+}
