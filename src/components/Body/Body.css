@@ -19,7 +19,8 @@
 }
 
 .vin-pic {
-    border: 1px solid black;
+    border: 10px solid rgb(0, 44, 0);
+    border: 10px solid rgb(0, 44, 0);
     height: 100%;
     width: 47%;
     background: url('./vindermere-screenshot.png');
@@ -34,10 +35,16 @@
 }
 
 .vin-title {
-    border: 1px solid black;
+    padding: 9px;
+    /* padding-bottom: 9px; */
+    /* border: 1px solid black; */
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 8px;
+    background: linear-gradient(to left, darkgreen, rgb(0, 44, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .vin-info-body {
@@ -49,11 +56,21 @@
 
 .vin-built-with {
     margin-right: 10px;
+    width: 45%;
     /* border: 1px solid green; */
 }
 
 .vin-summary {
     /* border: 1px solid green; */
+    width: 45%;
+}
+
+.vin-challenges {
+    padding: 5px;
+}.game-ryan-challenges {
+    padding: 5px;
+}.chord-finder-challenges {
+    padding: 5px;
 }
 
 .game-ryan-container {
@@ -67,7 +84,7 @@
 }
 
 .game-ryan-pic {
-    border: 1px solid black;
+    border: 10px solid rgb(0, 44, 0);
     height: 100%;
     width: 47%;
     background: url('./gameryan-screenshot.png');
@@ -82,26 +99,35 @@
 }
 
 .game-ryan-title {
-    border: 1px solid black;
+    padding: 9px;
+    /* padding-bottom: 9px; */
+    /* border: 1px solid black; */
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 8px;
     text-align: end;
+    background: linear-gradient(to right, darkgreen, rgb(0, 44, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .game-ryan-info-body {
     display: flex;
+    justify-content: space-between;
     padding: 5px;
     /* border: 1px solid purple; */
     height: 40%;
 }
 
 .game-ryan-built-with {
+    width: 45%;
     margin-right: 10px;
     /* border: 1px solid green; */
 }
 
 .game-ryan-summary {
+    width: 45%;
     /* border: 1px solid green; */
 }
 
@@ -116,7 +142,7 @@
 }
 
 .chord-finder-pic {
-    border: 1px solid black;
+    border: 10px solid rgb(0, 44, 0);
     height: 100%;
     width: 47%;
     background: url('./2020-05-19\ \(5\).png');
@@ -131,24 +157,33 @@
 }
 
 .chord-finder-title {
-    border: 1px solid black;
+    padding: 9px;
+    /* padding-bottom: 9px; */
+    /* border: 1px solid black; */
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 8px;
+    background: linear-gradient(to left, darkgreen, rgb(0, 44, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .chord-finder-info-body {
     display: flex;
     padding: 5px;
+    justify-content: space-between;
     /* border: 1px solid purple; */
     height: 40%;
 }
 
 .chord-finder-built-with {
+    width: 45%;
     margin-right: 10px;
     /* border: 1px solid green; */
 }
 
 .chord-finder-summary {
+    width: 45%;
     /* border: 1px solid green; */
 }
