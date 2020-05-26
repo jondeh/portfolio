@@ -1,0 +1,108 @@
+.hex-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(100, 40px);
+    grid-template-rows: repeat(100, 40px);
+    z-index: -1;
+    color: black;
+    /* width: 100%; */
+    /* overflow: hidden; */
+
+  }
+  
+  .hexagon {
+      position: relative;
+      color: black;
+    width: 40px; 
+    height: 23.12px;
+    background: transparent;
+    margin: 6px 0px;
+    border-left: solid 1px rgb(36, 36, 36);
+    border-right: solid 1px rgb(36, 36, 36);
+    z-index: 10;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .hexagon:hover {
+      border: none;
+      z-index: 12;
+      background: grey;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: inherit;
+    width: 28.28px;
+    height: 28.28px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 4.8579px;
+  }
+  
+  .hexagon:before {
+    top: -15px;
+    border-top: solid 1px rgb(36, 36, 36);
+    border-right: solid 1px rgb(36, 36, 36);
+  }
+  
+  .hexagon:after {
+    bottom: -15px;
+    border-bottom: solid 1px rgb(36, 36, 36);
+    border-left: solid 1px rgb(36, 36, 36);
+  }
+  
+  .hexagon-odd {
+    color: black;
+    position: relative;
+    width: 40px; 
+    height: 23.12px;
+    background: radial-gradient(black, transparent);
+    margin: 6px 0px;
+    border-left: solid 1px rgb(36, 36, 36);
+    border-right: solid 1px rgb(36, 36, 36);
+    margin-left: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .hexagon-odd:hover {
+      border: none;
+    z-index: 12;
+    background: grey;
+}
+  
+  .hexagon-odd:before,
+  .hexagon-odd:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 28.28px;
+    height: 28.28px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 4.8579px;
+  }
+  
+  .hexagon-odd:before {
+    top: -15px;
+    border-top: solid 1px rgb(36, 36, 36);
+    border-right: solid 1px rgb(36, 36, 36);
+  }
+  
+  .hexagon-odd:after {
+    bottom: -15px;
+    border-bottom: solid 1px rgb(36, 36, 36);
+    border-left: solid 1px rgb(36, 36, 36);
+  }
+  

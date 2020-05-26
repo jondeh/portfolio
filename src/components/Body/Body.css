@@ -1,18 +1,21 @@
 .body-container {
     /* height: 200vh; */
-    width: 100%;
+    /* width: 100%; */
     /* border: 1px solid red; */
     display: flex;
     padding: 50px;
     flex-direction: column;
-    background: black;
+    background: linear-gradient(to right bottom, black, rgb(8, 14, 7), rgb(0, 15, 0) 99%);
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
 }
 
 .vindermere-container {
     padding: 30px;
     height: 500px;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -31,7 +34,7 @@
 .vin-info-container {
     width: 47%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid red; */
 }
 
 .vin-title {
@@ -77,7 +80,7 @@
     padding: 30px;
     height: 500px;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -95,7 +98,7 @@
 .game-ryan-info-container {
     width: 47%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid red; */
 }
 
 .game-ryan-title {
@@ -135,7 +138,7 @@
     padding: 30px;
     height: 500px;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -153,7 +156,7 @@
 .chord-finder-info-container {
     width: 47%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .chord-finder-title {

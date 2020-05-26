@@ -8,7 +8,7 @@ const GameRyan = (props) => {
     return (
         <div className="game-ryan-container">
             <div className="game-ryan-info-container">
-                <a href="https://gameryan.netlify.app/#/sudoku"><div className="game-ryan-title"><a href="https://github.com/jondeh/gameRyan.com"><FaGithub /></a>Sudoku</div></a>
+                <a href="https://gameryan.netlify.app/#/sudoku"><div className="game-ryan-title">Sudoku</div></a>
                 <div className="game-ryan-info-body">
                     <div className="game-ryan-built-with">
                         <h3 style={{marginBottom: "5px", color: `${color2}`}}>Built with:</h3>
@@ -30,7 +30,7 @@ const GameRyan = (props) => {
                     </span>
                 </div>
             </div>
-            <div className="game-ryan-pic"><a href=""><div style={{color: "purple", width: "200px", height: "200px"}}><FaGithub /></div></a></div>
+            <div className="game-ryan-pic"></div>
         </div>
     )
 }
