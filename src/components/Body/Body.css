@@ -55,24 +55,30 @@
     padding: 5px;
     /* border: 1px solid purple; */
     height: 40%;
+    overflow: auto;
 }
 
 .vin-built-with {
+    overflow: auto;
     margin-right: 10px;
     width: 45%;
     /* border: 1px solid green; */
 }
 
 .vin-summary {
+    overflow: auto;
     /* border: 1px solid green; */
     width: 45%;
 }
 
 .vin-challenges {
+    overflow: auto;
     padding: 5px;
 }.game-ryan-challenges {
+    overflow: auto;
     padding: 5px;
 }.chord-finder-challenges {
+    overflow: auto;
     padding: 5px;
 }
 
@@ -116,6 +122,7 @@
 }
 
 .game-ryan-info-body {
+    overflow: auto;
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -124,12 +131,14 @@
 }
 
 .game-ryan-built-with {
+    overflow: auto;
     width: 45%;
     margin-right: 10px;
     /* border: 1px solid green; */
 }
 
 .game-ryan-summary {
+    overflow: auto;
     width: 45%;
     /* border: 1px solid green; */
 }
@@ -181,12 +190,14 @@
 }
 
 .chord-finder-built-with {
+    overflow: auto;
     width: 45%;
     margin-right: 10px;
     /* border: 1px solid green; */
 }
 
 .chord-finder-summary {
+    overflow: auto;
     width: 45%;
     /* border: 1px solid green; */
 }
