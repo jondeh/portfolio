@@ -27,11 +27,11 @@
     align-items: center; */
   }
 
-  .hexagon:hover {
+  /* .hexagon:hover {
       border: none;
       z-index: 12;
       background: grey;
-  }
+  } */
   
   .hexagon:before,
   .hexagon:after {
@@ -74,11 +74,11 @@
     align-items: center; */
   }
 
-  .hexagon-odd:hover {
+  /* .hexagon-odd:hover {
       border: none;
     z-index: 12;
     background: grey;
-}
+} */
   
   .hexagon-odd:before,
   .hexagon-odd:after {
