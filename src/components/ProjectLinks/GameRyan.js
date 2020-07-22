@@ -1,5 +1,5 @@
 import React from 'react';
-// import {FaGithub} from 'react-icons/fa';
+import {FaGithub} from 'react-icons/fa';
 
 const GameRyan = (props) => {
 
@@ -8,7 +8,7 @@ const GameRyan = (props) => {
     return (
         <div className="game-ryan-container">
             <div className="game-ryan-info-container">
-                <a href="https://gameryan.netlify.app/#/sudoku"><div className="game-ryan-title">Sudoku</div></a>
+                <a href="https://gameryan.netlify.app/#/sudoku"><div className="game-ryan-title">Sudoku<FaGithub /></div></a>
                 <div className="game-ryan-info-body">
                     <div className="game-ryan-built-with">
                         <h3 style={{marginBottom: "5px", color: `${color2}`}}>Built with:</h3>

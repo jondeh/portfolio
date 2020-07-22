@@ -3,8 +3,10 @@ import Vindermere from '../ProjectLinks/Vindermere';
 import GameRyan from '../ProjectLinks/GameRyan';
 import ChordFinder from '../ProjectLinks/ChordFinder';
 import LandingPage from '../LandingPage/LandingPage';
+import Settlers from '../ProjectLinks/Settlers';
 import './Body.css';
 import './Hexagon.css';
+
 
 const Body = (props) => {
     const [hexagons, setHexagons] = useState([])
@@ -27,6 +29,7 @@ const Body = (props) => {
     return (
         <div className='body-container'>
             <LandingPage />
+            <Settlers />
             <Vindermere />
             <GameRyan />
             <ChordFinder />

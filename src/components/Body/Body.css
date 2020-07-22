@@ -201,3 +201,64 @@
     width: 45%;
     /* border: 1px solid green; */
 }
+
+.settlers-container {
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.settlers-pic {
+    border: 10px solid rgb(0, 44, 0);
+    height: 100%;
+    width: 47%;
+    background: url('./settlers-screenshot.png');
+    background-size: 145%;
+    background-position: center;
+}
+
+.settlers-info-container {
+    width: 47%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.settlers-title {
+    padding: 9px;
+    /* padding-bottom: 9px; */
+    /* border: 1px solid black; */
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: end;
+    background: linear-gradient(to right, darkgreen, rgb(0, 44, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settlers-info-body {
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /* border: 1px solid purple; */
+    height: 40%;
+}
+
+.settlers-built-with {
+    overflow: auto;
+    width: 45%;
+    margin-right: 10px;
+    /* border: 1px solid green; */
+}
+
+.settlers-summary {
+    overflow: auto;
+    width: 45%;
+    /* border: 1px solid green; */
+}
