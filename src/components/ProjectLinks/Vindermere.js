@@ -2,7 +2,7 @@ import React from 'react';
 import {FaGithub} from 'react-icons/fa';
 
 const Vindermere = (props) => {
-    let color1 = "darkblue"
+    // let color1 = "darkblue"
     let color2 = "darkgreen"
 
     return (
