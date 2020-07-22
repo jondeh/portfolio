@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, {useEffect, useRef} from 'react';
 import {TweenMax} from 'gsap';
 import './LandingPage.css';
 import {FaGithub, FaLinkedin, FaArrowDown} from 'react-icons/fa';
