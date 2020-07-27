@@ -10,7 +10,12 @@
     font-size: 68px;
     font-weight: 500;
     flex-direction: column;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: 1px solid white; */
+}
+
+.introduction {
+    opacity: 0;
 }
 
 .nav-buttons {

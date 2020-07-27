@@ -29,6 +29,8 @@
     background: url('./vindermere-screenshot.png');
     background-size: 250%;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .vin-info-container {
@@ -99,6 +101,8 @@
     background: url('./gameryan-screenshot.png');
     background-size: 145%;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .game-ryan-info-container {
@@ -160,6 +164,8 @@
     background: url('./2020-05-19\ \(5\).png');
     background-size: 145%;
     background-position-x: start;
+    background-repeat: no-repeat;
+
 }
 
 .chord-finder-info-container {
@@ -219,6 +225,7 @@
     background: url('./settlers-screenshot.png');
     background-size: 145%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .settlers-info-container {

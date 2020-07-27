@@ -13,7 +13,7 @@ const Settlers = (props) => {
                     <div className="settlers-built-with">
                         <h3 style={{marginBottom: "5px", color: `${color2}`}}>Built with:</h3>
                         <span>
-                            JavaScript, React (Hooks), Node, Massive, Express, BCrypt, PostgreSQL, SCSS, CSS Grid, FlexBox, GreenSock, sockets.
+                            JavaScript, React (Hooks), Node, Massive, Express, BCrypt, PostgreSQL, SCSS, CSS Grid, FlexBox, GreenSock, Socket.io.
                         </span>
                     </div>
                     <div className="settlers-summary">

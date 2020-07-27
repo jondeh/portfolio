@@ -9,23 +9,23 @@ import './Hexagon.css';
 
 
 const Body = (props) => {
-    const [hexagons, setHexagons] = useState([])
+    // const [hexagons, setHexagons] = useState([])
 
-    useEffect(() => {
-        const hexagons = []
-        for(let col = 0; col < 100; col++){
-            const currentRow = []
-                for(let row = 0; row < 100; row++){
-                    const currentNode = {
-                        col,
-                        row,
-                    }
-                    currentRow.push(currentNode)
-                }
-                hexagons.push(currentRow)
-            }
-            setHexagons(hexagons)
-    }, [])
+    // useEffect(() => {
+    //     const hexagons = []
+    //     for(let col = 0; col < 100; col++){
+    //         const currentRow = []
+    //             for(let row = 0; row < 100; row++){
+    //                 const currentNode = {
+    //                     col,
+    //                     row,
+    //                 }
+    //                 currentRow.push(currentNode)
+    //             }
+    //             hexagons.push(currentRow)
+    //         }
+    //         setHexagons(hexagons)
+    // }, [])
     return (
         <div className='body-container'>
             <LandingPage />
@@ -33,7 +33,7 @@ const Body = (props) => {
             <Vindermere />
             <GameRyan />
             <ChordFinder />
-            <div className="hex-container">
+            {/* <div className="hex-container">
                 {
                 
           hexagons.map((e,i) => {
@@ -46,7 +46,7 @@ const Body = (props) => {
               </div>
           })
         }
-            </div>
+            </div> */}
             
         </div>
     )
