@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Vindermere from '../ProjectLinks/Vindermere';
 import GameRyan from '../ProjectLinks/GameRyan';
 import ChordFinder from '../ProjectLinks/ChordFinder';
